@@ -1,6 +1,7 @@
 # Weather App on AKS: Multi-Environment Azure Platform with Terraform and GitHub Actions
 
-- **Author:** Mimi Dib
+- **Author:** Mimi Dib 
+- **GitHub Link:** [mimidib](https://github.com/mimidib)
 - **Date:** 2026-10-26
 
 ## Overview
@@ -10,12 +11,6 @@ This project deploys **Azure Kubernetes Service (AKS)** clusters and a **managed
 The infrastructure uses a remote Terraform backend, with the state file stored securely in **Azure Blob Storage** so multiple contributors can work on it safely. The Terraform code is organized into reusable modules to manage resources neatly and efficiently.
 
 This project simulates a real-world scenario, with a code reviewer to approve/deny pull requests, and multiple environments to manage, namely: `dev`, `test`, and `prod`.
-
-## Design Choices & Trade-offs
-
-There are always trade-offs when choosing the tools and services used while building a project. This section discusses the pros and cons of the tools used here and any notable mentions as alternate options along with their highlighted characteristics. 
-
----
 
 ## Credits
 
